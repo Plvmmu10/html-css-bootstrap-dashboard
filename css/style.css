@@ -1,4 +1,6 @@
-
+.debug{
+    border: 1px solid black;
+}
 
 header{
     height: 70px;
