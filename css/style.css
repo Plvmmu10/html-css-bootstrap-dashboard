@@ -1,0 +1,25 @@
+
+
+header{
+    height: 70px;
+}
+
+.wrapper{
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    overflow: hidden;   
+}
+
+#sidebar{
+    width: 180px;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: #051e34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+main{
+    overflow-y: scroll;
+    flex-grow: 1;
+    height: 100%;
+}
