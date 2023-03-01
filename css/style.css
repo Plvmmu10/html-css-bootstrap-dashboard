@@ -1,17 +1,27 @@
+/* COLORS */
+main{
+    background-color: #f8f9fa;
+}
+
+/* UTILITIES */
 .debug{
     border: 1px solid black;
 }
 
+/* HEADER CONFIG */
 header{
     height: 70px;
+    position: fixed;
 }
 
+/* WRAPPER CONFIG */
 .wrapper{
-    height: calc(100vh - 80px);
-    margin-top: 80px;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
     overflow: hidden;   
 }
 
+/* SIDEBAR CONFIG */
 #sidebar{
     width: 180px;
     height: 100%;
@@ -20,8 +30,39 @@ header{
     background-image: url(../img/sidebar-bg.png);
 }
 
+/* MAIN CONFIG */
 main{
     overflow-y: scroll;
     flex-grow: 1;
     height: 100%;
+}
+
+/* Classes table config */
+table td:first-child img{
+    width: 2rem ;
+}
+
+/* modify button config */
+.modify, .delete{
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}
+.modify:after{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f304';
+    font-weight: 900;
+}
+
+/* delete button config */
+.delete::after{
+    font-family: 'Font Awesome 6 Free';
+    content: '\f2ed';
+    font-weight: 900;
+}
+
+
+@media  screen and (max-width:575px) {
+    .cell-none{
+        display: none;
+    }
 }
