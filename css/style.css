@@ -37,6 +37,34 @@ main{
     height: 100%;
 }
 
+/* TOP ASIDE OF MAIN CONFIG */
+/* Breadcumb col */
+.aside .badge{
+    background-color: #165bba;
+}
+
+.aside .badge:hover{
+    background-color: #13366b;
+    cursor: pointer;
+}
+/* Offcanvas Config */
+
+/* Offcanvas button config */
+.offcanvas-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 1rem;
+}
+
+.offcanvas-btn::after{
+    font-family: 'Font Awesome 6 Free';
+    content: '\2b';
+    font-weight: 900;
+    padding: 5px;
+}
+
 /* Classes table config */
 table td:first-child img{
     width: 2rem ;
@@ -63,6 +91,14 @@ table td:first-child img{
 
 @media  screen and (max-width:575px) {
     .cell-none{
+        display: none;
+    }
+
+    #sidebar{
+        width: 70px;
+    }
+
+    .breadcumbs{
         display: none;
     }
 }
