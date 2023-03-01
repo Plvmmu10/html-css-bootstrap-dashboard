@@ -11,7 +11,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Bootstrap</title>
+    <title>Bootstrap Dashboard</title>
 </head>
 
 <body>
@@ -34,8 +34,8 @@
         <main>
             <!-- Top Aside of main -->
             <div class="aside bg-primary text-white">
-                <div class="container-fluid">
-
+                <div class="container-fluid mb-4">
+                    ao
                 </div>
             </div>
 
@@ -43,20 +43,224 @@
             <section class="container-fluid">
                 <div class="row">
                     <!-- Left column -->
-                    <div class="col-sm-12 col-lg-8 debug">
+                    <div class="col-sm-12 col-lg-8">
 
                         <div class="row gy-4">
                             <div class="col-12">
                                 <!-- Classes cards -->
                                 <div class="card">
                                     <div class="card-header">
-                                        Featured
+                                        <h3>Prossime classi</h3>
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
+                                    <div class="card-body">
+                                        <!-- Classes table -->
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                  <th>Nome</th>
+                                                  <th class="cell-none">Data inizio</th>
+                                                  <th>ROI</th>
+                                                  <th>Stato</th>
+                                                  <th>Azioni</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <!-- First row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 75          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        15 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-success">Done</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+
+                                                <!-- Second row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 76          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        16 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-success">Done</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Third row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 77          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        17 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-warning text-white">process</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Forth row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 78          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        18 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-success">Done</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Fifth row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 79          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        19 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-danger">failed</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Sixth row -->
+                                                <tr>
+                                                    <td class="dev-cell">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 80          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        20 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-success">Done</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Seventh row -->
+                                                <tr>
+                                                    <td class="cell-none">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 81          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        21 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-danger">failed</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                                <!-- Eight row -->
+                                                <tr>
+                                                    <td class="d-none d-md-block">
+                                                        <img src="./img/class-avatar.jpg" alt="dev symbol"> Classe 82          
+                                                    </td>
+
+                                                    <td class="cell-none">
+                                                        22 Feb 2021
+                                                    </td>
+
+                                                    <td>
+                                                        20&percnt;
+                                                    </td>
+
+                                                    <td>
+                                                        <span class="badge rounded-pill text-bg-success">Done</span>
+                                                    </td>
+
+                                                    <td>
+                                                        <button class="modify rounded"></button>
+
+                                                        <button class="delete rounded"></button>
+                                                    </td>
+                                                </tr>
+                                              </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
 
@@ -64,20 +268,59 @@
                                 <!-- F.A.Q Card -->
                                 <div class="card">
                                     <div class="card-header">
-                                        Featured
+                                        <h3 class="text-uppercase">f.a.q</h3>
                                     </div>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
+                                    <div class="accordion">
+                                        <!-- FIRST FAQ -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faqOne">
+                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Come aggiungere un nuovo studente?
+                                              </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faqOne" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                Clicca sul + in alto nella sezione blu.
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- SECOND FAQ -->
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faqTwo">
+                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                                Come posso accedere alle informazioni del mio account?
+                                              </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="faqTwo" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                Clicca sull'icona della campanella
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                          <!-- THIRD FAQ -->
+                                          <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faqThree">
+                                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                Posso usare questa dashboard da mobile?
+                                              </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="faqThree" data-bs-parent="#accordionExample">
+                                              <div class="accordion-body">
+                                                Ovviamente!
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Right column -->
-                    <div class="col-sm-12 col-lg-4 debug">
+                    <div class="col-sm-12 col-lg-4">
 
                         <div class="row gy-4">
                             <div class="col-12">
