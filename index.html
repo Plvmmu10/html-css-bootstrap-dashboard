@@ -26,8 +26,31 @@
 
     <div class="wrapper d-flex">
         <!-- Sidebar -->
-        <div id="sidebar" class="text-white">
-            sidebar
+        <div id="sidebar" class="text-white d-flex flex-column justify-content-between">
+            <div class="top-nav p-3">
+                <ul class="nav d-flex flex-column ">
+                    <li class="nav-item py-2" id="home">
+                        <a href="#"><span>Home</span></a>
+                        
+                    </li>
+
+                    <li class="nav-item py-2" id="stats">
+                        <a href="#"><span>Stats</span></a>
+                    </li>
+
+                    <li class="nav-item py-2" id="signals">
+                        <a href="#"><span>Signals</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bot-nav p-3 ">
+                <ul class="nav">
+                    <li class="nav-item border-0 py-2" id="admin">
+                        <a href="#"><span>Admin</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <!-- Main -->
@@ -38,7 +61,7 @@
                     <div class="row py-4 d-flex justify-content-start">
 
                         <!-- New Student col -->
-                        <div class="col-12 col-md-3 d-flex align-items-center pb-3">
+                        <div class="col-12 col-md-3 d-flex align-items-center pb-3 d-md-none">
                             <h5>Nuovo Studente</h5>
                             <!-- Offcanvas Button -->
                             <button class="offcanvas-btn rounded-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"></button>                             
@@ -68,6 +91,13 @@
                         <div class="col-12 col-md-3 pb-3">
                             <h5>Studenti online negli ultimi 30 minuti</h5>
                             <h3>125</h3>
+                        </div>
+
+                        <!-- New Student col -->
+                        <div class="col-md-3 d-md-flex align-items-center pb-3 d-none d-md-block">
+                            <h5>Nuovo Studente</h5>
+                            <!-- Offcanvas Button -->
+                            <button class="offcanvas-btn rounded-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"></button>                             
                         </div>
                     </div>
                 </div>
