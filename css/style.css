@@ -47,7 +47,11 @@ main{
     background-color: #13366b;
     cursor: pointer;
 }
-/* Offcanvas Config */
+
+/* Offcanvas config */
+.offcanvas.offcanvas-end{
+    width: 100%;
+}
 
 /* Offcanvas button config */
 .offcanvas-btn{
@@ -98,7 +102,13 @@ table td:first-child img{
         width: 70px;
     }
 
-    .breadcumbs{
+    .breadcumbs-none{
         display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .offcanvas.offcanvas-end{
+        width: 60%;
     }
 }
