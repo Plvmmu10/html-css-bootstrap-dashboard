@@ -30,6 +30,51 @@ header{
     background-image: url(../img/sidebar-bg.png);
 }
 
+#sidebar .nav-item a{
+    text-decoration: none;
+    color: white;
+    padding-left: .5rem;
+}
+
+#sidebar li{
+    padding-left: 5px;
+}
+
+#sidebar li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* Sidebar before config */
+#home::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\f015';
+    font-weight: 900;
+    color: white;
+}
+
+#stats::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\e473';
+    font-weight: 900;
+    color: white;
+}
+
+#signals::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\f012';
+    font-weight: 900;
+    color: white;
+}
+
+#admin::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\f013';
+    font-weight: 900;
+    color: white;
+}
+
 /* MAIN CONFIG */
 main{
     overflow-y: scroll;
@@ -103,6 +148,10 @@ table td:first-child img{
     }
 
     .breadcumbs-none{
+        display: none;
+    }
+
+    #sidebar .nav-item a span{
         display: none;
     }
 }
