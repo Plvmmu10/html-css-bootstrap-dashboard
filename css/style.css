@@ -15,14 +15,8 @@ header{
 }
 
 /* navbar config */
-.search-bar input{
+.searchBar{
     background-color: #e5e5e5;
-}
-
-.search-bar input::before{
-    font-family: "Font Awesome 6 Free";
-    content: '\f002';
-    font-weight: 900;
 }
 
 
