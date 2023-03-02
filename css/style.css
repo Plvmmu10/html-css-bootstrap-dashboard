@@ -120,6 +120,12 @@ main{
     padding: 5px;
 }
 
+.offcanvas-btn:hover{
+    background-color: white;
+    color: #165bba;
+    scale: 1.5;
+}
+
 /* Classes table config */
 table td:first-child img{
     width: 2rem ;
