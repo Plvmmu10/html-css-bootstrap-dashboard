@@ -15,11 +15,45 @@
 </head>
 
 <body>
-    <header class="fixed-top d-flex align-items-center">
+    <header class="fixed-top">
 
         <!-- Navbar with white bg -->
-        <nav class="bg-white">
-            navbar
+        <nav class="bg-white p-lg-4 p-md-4">
+           <ul class="nav d-flex justify-content-between">
+                <li class="nav-item d-flex align-items-center">
+                    <img src="./img/logo.svg" alt="big-logo" class="d-none d-md-block">
+                    <img src="./img/mobile-logo.png" alt="small-logo" class="small-logo d-block d-md-none">
+                </li>
+
+                <li class="nav-item d-flex align-items-center w-75 ">
+                    <div class="search-bar w-100 ">
+                        <input type="text" name="search-bar" id="search" class="w-100 border-0" placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
+                </li>
+
+                <li class="nav-item d-flex align-items-center">
+                    <ul class="d-flex list-unstyled align-items-center">
+                        <li class="px-3 d-none d-lg-block"><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
+
+                        <li class="px-3 d-none d-lg-block"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+
+                        <li class="px-3 d-none d-lg-block"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+
+                        <!-- dropdown -->
+                        <div class="dropdown px-3">
+                            <button class="border-0 bg-transparent text-warning" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                          </div>
+                    </ul>
+                </li>
+           </ul>
+
         </nav>
 
     </header>
