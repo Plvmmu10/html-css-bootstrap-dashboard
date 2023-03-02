@@ -19,15 +19,16 @@
 
         <!-- Navbar with white bg -->
         <nav class="bg-white p-lg-4 p-md-4">
-           <ul class="nav d-flex justify-content-between">
+           <ul class="nav d-flex justify-content-between flex-nowrap">
                 <li class="nav-item d-flex align-items-center">
                     <img src="./img/logo.svg" alt="big-logo" class="d-none d-md-block">
                     <img src="./img/mobile-logo.png" alt="small-logo" class="small-logo d-block d-md-none">
                 </li>
 
-                <li class="nav-item d-flex align-items-center w-75 ">
-                    <div class="search-bar w-100 ">
-                        <input type="text" name="search-bar" id="search" class="w-100 border-0" placeholder="Prova a cercare: Lezioni di Laravel">
+                <li class="nav-item d-flex align-items-center w-75 px-2">
+                    <div class="searchBar w-100 d-flex align-items-center rounded p-2">
+                        <span class="pe-2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" name="search-bar" id="search" class="w-100 border-0 bg-transparent" placeholder="Prova a cercare: Lezioni di Laravel">
                     </div>
                 </li>
 
@@ -40,7 +41,7 @@
                         <li class="px-3 d-none d-lg-block"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
 
                         <!-- dropdown -->
-                        <div class="dropdown px-3">
+                        <div class="dropdown ps-3">
                             <button class="border-0 bg-transparent text-warning" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell"></i>
                             </button>
@@ -60,7 +61,7 @@
 
     <div class="wrapper d-flex">
         <!-- Sidebar -->
-        <div id="sidebar" class="text-white d-flex flex-column justify-content-between">
+        <div id="sidebar" class="text-white d-flex flex-column justify-content-between pt-4">
             <div class="top-nav p-3">
                 <ul class="nav d-flex flex-column ">
                     <li class="nav-item py-2" id="home">
@@ -91,7 +92,7 @@
         <main>
             <!-- Top Aside of main -->
             <div class="aside bg-primary text-white">
-                <div class="container-fluid mb-4">
+                <div class="container-fluid mb-4 pt-3">
                     <div class="row py-4 d-flex justify-content-start">
 
                         <!-- New Student col -->
@@ -131,7 +132,7 @@
                         <div class="col-md-3 d-md-flex align-items-center pb-3 d-none d-md-block">
                             <h5>Nuovo Studente</h5>
                             <!-- Offcanvas Button -->
-                            <button class="offcanvas-btn rounded-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"></button>                             
+                            <button class="offcanvas-btn rounded-2 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"></button>                             
                         </div>
                     </div>
                 </div>
